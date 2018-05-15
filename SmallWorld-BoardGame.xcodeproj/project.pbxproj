@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA368E7B2025109100A013C4 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA368E792025109100A013C4 /* Map.cpp */; };
+		FA3E124E2069A0AA0092742C /* Observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3E124C2069A0AA0092742C /* Observer.cpp */; };
+		FA3E12512069A0B40092742C /* Subject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3E124F2069A0B40092742C /* Subject.cpp */; };
+		FA4A1A1A202F769900BD4771 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4A1A19202F769900BD4771 /* Main.cpp */; };
+		FA4A1A212031075E00BD4771 /* Tokens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4A1A1F2031075E00BD4771 /* Tokens.cpp */; };
+		FA4A1A292032538800BD4771 /* SummarySheets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4A1A272032538800BD4771 /* SummarySheets.cpp */; };
+		FA4A1A2C203254A600BD4771 /* VictoryCoin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4A1A2A203254A600BD4771 /* VictoryCoin.cpp */; };
+		FA4A1A2F2032557500BD4771 /* TurnMarker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4A1A2D2032557500BD4771 /* TurnMarker.cpp */; };
+		FA5C05B42073E34000C95FFF /* Strategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5C05B22073E34000C95FFF /* Strategy.cpp */; };
+		FA60FCE320275A25007CB7F5 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60FCE120275A25007CB7F5 /* Player.cpp */; };
+		FA60FD5020276205007CB7F5 /* ReinforcementDie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60FD4E20276205007CB7F5 /* ReinforcementDie.cpp */; };
+		FA60FD64202BFA5D007CB7F5 /* MapLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60FD62202BFA5D007CB7F5 /* MapLoader.cpp */; };
+		FA60FD6C202BFD61007CB7F5 /* NodeProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60FD6A202BFD61007CB7F5 /* NodeProperties.cpp */; };
+		FA60FD6F202C07DC007CB7F5 /* EdgeProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60FD6D202C07DC007CB7F5 /* EdgeProperties.cpp */; };
+		FA60FD71202C109A007CB7F5 /* Race.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60FD70202C109A007CB7F5 /* Race.cpp */; };
+		FA60FD73202C10B6007CB7F5 /* SpecialPower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60FD72202C10B6007CB7F5 /* SpecialPower.cpp */; };
+		FA60FD76202C1149007CB7F5 /* Region.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60FD74202C1149007CB7F5 /* Region.cpp */; };
+		FA73DE002072C15400B027D8 /* TurnMarkerObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA73DDFE2072C15400B027D8 /* TurnMarkerObserver.cpp */; };
+		FA73DE072072D50D00B027D8 /* GameStatisticsObserverDecorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA73DE052072D50D00B027D8 /* GameStatisticsObserverDecorator.cpp */; };
+		FA73DE102072E8C000B027D8 /* PlayerHandObserverDecorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA73DE0E2072E8C000B027D8 /* PlayerHandObserverDecorator.cpp */; };
+		FA73DE132072E8D300B027D8 /* PlayerHandsObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA73DE112072E8D300B027D8 /* PlayerHandsObserver.cpp */; };
+		FA73DE172072EB6F00B027D8 /* VictoryCoinObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA73DE152072EB6F00B027D8 /* VictoryCoinObserver.cpp */; };
+		FA73DE1A2072EB7E00B027D8 /* VictoryCoinObserverDecorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA73DE182072EB7E00B027D8 /* VictoryCoinObserverDecorator.cpp */; };
+		FA73DE1D2073C04900B027D8 /* PlayerHands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA73DE1C2073C04900B027D8 /* PlayerHands.cpp */; };
+		FA77ADF9206AAAE800E154C7 /* PhaseObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA77ADF7206AAAE800E154C7 /* PhaseObserver.cpp */; };
+		FA77ADFC206B078300E154C7 /* GamePhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA77ADFA206B078300E154C7 /* GamePhase.cpp */; };
+		FA8AD0882046430400EBBB77 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AD0872046430400EBBB77 /* libSDL2-2.0.0.dylib */; };
+		FAC3A052206ECA2400F8D456 /* GameStatisticsObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC3A050206ECA2400F8D456 /* GameStatisticsObserver.cpp */; };
+		FAD80943207C5AE7004B8F45 /* TroopRedeployment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD80941207C5AE7004B8F45 /* TroopRedeployment.cpp */; };
+		FAD80949207D8828004B8F45 /* Abandoning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD80947207D8828004B8F45 /* Abandoning.cpp */; };
+		FAD8094C207DA01C004B8F45 /* EnterDecline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD8094A207DA01C004B8F45 /* EnterDecline.cpp */; };
+		FAF08DA0205347C80060F683 /* Conquering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF08D9E205347C80060F683 /* Conquering.cpp */; };
+		FAF08DA3205367460060F683 /* GameSetup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF08DA1205367460060F683 /* GameSetup.cpp */; };
+		FAF08DB02055CD2B0060F683 /* VictoryCoinAssist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF08DAE2055CD2B0060F683 /* VictoryCoinAssist.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA7D8C402024F15900A198F4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA368E792025109100A013C4 /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		FA368E7A2025109100A013C4 /* Map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		FA3E124C2069A0AA0092742C /* Observer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Observer.cpp; sourceTree = "<group>"; };
+		FA3E124D2069A0AA0092742C /* Observer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Observer.hpp; sourceTree = "<group>"; };
+		FA3E124F2069A0B40092742C /* Subject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Subject.cpp; sourceTree = "<group>"; };
+		FA3E12502069A0B40092742C /* Subject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Subject.hpp; sourceTree = "<group>"; };
+		FA4A1A19202F769900BD4771 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		FA4A1A1F2031075E00BD4771 /* Tokens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tokens.cpp; sourceTree = "<group>"; };
+		FA4A1A202031075E00BD4771 /* Tokens.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tokens.hpp; sourceTree = "<group>"; };
+		FA4A1A272032538800BD4771 /* SummarySheets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SummarySheets.cpp; sourceTree = "<group>"; };
+		FA4A1A282032538800BD4771 /* SummarySheets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SummarySheets.hpp; sourceTree = "<group>"; };
+		FA4A1A2A203254A600BD4771 /* VictoryCoin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VictoryCoin.cpp; sourceTree = "<group>"; };
+		FA4A1A2B203254A600BD4771 /* VictoryCoin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VictoryCoin.hpp; sourceTree = "<group>"; };
+		FA4A1A2D2032557500BD4771 /* TurnMarker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TurnMarker.cpp; sourceTree = "<group>"; };
+		FA4A1A2E2032557500BD4771 /* TurnMarker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TurnMarker.hpp; sourceTree = "<group>"; };
+		FA5C05B22073E34000C95FFF /* Strategy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Strategy.cpp; sourceTree = "<group>"; };
+		FA5C05B32073E34000C95FFF /* Strategy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Strategy.hpp; sourceTree = "<group>"; };
+		FA60FCE120275A25007CB7F5 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		FA60FCE220275A25007CB7F5 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		FA60FD4E20276205007CB7F5 /* ReinforcementDie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReinforcementDie.cpp; sourceTree = "<group>"; };
+		FA60FD4F20276205007CB7F5 /* ReinforcementDie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReinforcementDie.hpp; sourceTree = "<group>"; };
+		FA60FD592029367A007CB7F5 /* SpecialPower.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpecialPower.hpp; sourceTree = "<group>"; };
+		FA60FD5A20293687007CB7F5 /* Race.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Race.hpp; sourceTree = "<group>"; };
+		FA60FD62202BFA5D007CB7F5 /* MapLoader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MapLoader.cpp; sourceTree = "<group>"; };
+		FA60FD63202BFA5D007CB7F5 /* MapLoader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MapLoader.hpp; sourceTree = "<group>"; };
+		FA60FD6A202BFD61007CB7F5 /* NodeProperties.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NodeProperties.cpp; sourceTree = "<group>"; };
+		FA60FD6B202BFD61007CB7F5 /* NodeProperties.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NodeProperties.hpp; sourceTree = "<group>"; };
+		FA60FD6D202C07DC007CB7F5 /* EdgeProperties.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeProperties.cpp; sourceTree = "<group>"; };
+		FA60FD6E202C07DC007CB7F5 /* EdgeProperties.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EdgeProperties.hpp; sourceTree = "<group>"; };
+		FA60FD70202C109A007CB7F5 /* Race.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Race.cpp; sourceTree = "<group>"; };
+		FA60FD72202C10B6007CB7F5 /* SpecialPower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpecialPower.cpp; sourceTree = "<group>"; };
+		FA60FD74202C1149007CB7F5 /* Region.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Region.cpp; sourceTree = "<group>"; };
+		FA60FD75202C1149007CB7F5 /* Region.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Region.hpp; sourceTree = "<group>"; };
+		FA73DDFE2072C15400B027D8 /* TurnMarkerObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TurnMarkerObserver.cpp; sourceTree = "<group>"; };
+		FA73DDFF2072C15400B027D8 /* TurnMarkerObserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TurnMarkerObserver.hpp; sourceTree = "<group>"; };
+		FA73DE052072D50D00B027D8 /* GameStatisticsObserverDecorator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameStatisticsObserverDecorator.cpp; sourceTree = "<group>"; };
+		FA73DE062072D50D00B027D8 /* GameStatisticsObserverDecorator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameStatisticsObserverDecorator.hpp; sourceTree = "<group>"; };
+		FA73DE0E2072E8C000B027D8 /* PlayerHandObserverDecorator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerHandObserverDecorator.cpp; sourceTree = "<group>"; };
+		FA73DE0F2072E8C000B027D8 /* PlayerHandObserverDecorator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlayerHandObserverDecorator.hpp; sourceTree = "<group>"; };
+		FA73DE112072E8D300B027D8 /* PlayerHandsObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerHandsObserver.cpp; sourceTree = "<group>"; };
+		FA73DE122072E8D300B027D8 /* PlayerHandsObserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlayerHandsObserver.hpp; sourceTree = "<group>"; };
+		FA73DE152072EB6F00B027D8 /* VictoryCoinObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VictoryCoinObserver.cpp; sourceTree = "<group>"; };
+		FA73DE182072EB7E00B027D8 /* VictoryCoinObserverDecorator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VictoryCoinObserverDecorator.cpp; sourceTree = "<group>"; };
+		FA73DE192072EB7E00B027D8 /* VictoryCoinObserverDecorator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VictoryCoinObserverDecorator.hpp; sourceTree = "<group>"; };
+		FA73DE1B2072EF2300B027D8 /* VictoryCoinObserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VictoryCoinObserver.hpp; sourceTree = "<group>"; };
+		FA73DE1C2073C04900B027D8 /* PlayerHands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerHands.cpp; sourceTree = "<group>"; };
+		FA77ADF7206AAAE800E154C7 /* PhaseObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhaseObserver.cpp; sourceTree = "<group>"; };
+		FA77ADF8206AAAE800E154C7 /* PhaseObserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PhaseObserver.hpp; sourceTree = "<group>"; };
+		FA77ADFA206B078300E154C7 /* GamePhase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GamePhase.cpp; sourceTree = "<group>"; };
+		FA77ADFB206B078300E154C7 /* GamePhase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GamePhase.hpp; sourceTree = "<group>"; };
+		FA7D8C422024F15900A198F4 /* SmallWorld-BoardGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SmallWorld-BoardGame"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8AD0872046430400EBBB77 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2/2.0.7/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		FAC3A050206ECA2400F8D456 /* GameStatisticsObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameStatisticsObserver.cpp; sourceTree = "<group>"; };
+		FAC3A051206ECA2400F8D456 /* GameStatisticsObserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameStatisticsObserver.hpp; sourceTree = "<group>"; };
+		FAC3A058207124F700F8D456 /* PlayerHands.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlayerHands.hpp; sourceTree = "<group>"; };
+		FAD80941207C5AE7004B8F45 /* TroopRedeployment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TroopRedeployment.cpp; sourceTree = "<group>"; };
+		FAD80942207C5AE7004B8F45 /* TroopRedeployment.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TroopRedeployment.hpp; sourceTree = "<group>"; };
+		FAD80947207D8828004B8F45 /* Abandoning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Abandoning.cpp; sourceTree = "<group>"; };
+		FAD80948207D8828004B8F45 /* Abandoning.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Abandoning.hpp; sourceTree = "<group>"; };
+		FAD8094A207DA01C004B8F45 /* EnterDecline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EnterDecline.cpp; sourceTree = "<group>"; };
+		FAD8094B207DA01C004B8F45 /* EnterDecline.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EnterDecline.hpp; sourceTree = "<group>"; };
+		FAF08D9E205347C80060F683 /* Conquering.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Conquering.cpp; sourceTree = "<group>"; };
+		FAF08D9F205347C80060F683 /* Conquering.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Conquering.hpp; sourceTree = "<group>"; };
+		FAF08DA1205367460060F683 /* GameSetup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameSetup.cpp; sourceTree = "<group>"; };
+		FAF08DA2205367460060F683 /* GameSetup.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameSetup.hpp; sourceTree = "<group>"; };
+		FAF08DAE2055CD2B0060F683 /* VictoryCoinAssist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VictoryCoinAssist.cpp; sourceTree = "<group>"; };
+		FAF08DAF2055CD2B0060F683 /* VictoryCoinAssist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VictoryCoinAssist.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7D8C3F2024F15900A198F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AD0882046430400EBBB77 /* libSDL2-2.0.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA368E782025103A00A013C4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				FA368E792025109100A013C4 /* Map.cpp */,
+				FA368E7A2025109100A013C4 /* Map.hpp */,
+				FA60FD6A202BFD61007CB7F5 /* NodeProperties.cpp */,
+				FA60FD6B202BFD61007CB7F5 /* NodeProperties.hpp */,
+				FA60FD6D202C07DC007CB7F5 /* EdgeProperties.cpp */,
+				FA60FD6E202C07DC007CB7F5 /* EdgeProperties.hpp */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		FA368E7E2025111D00A013C4 /* Map Loader */ = {
+			isa = PBXGroup;
+			children = (
+				FA60FD62202BFA5D007CB7F5 /* MapLoader.cpp */,
+				FA60FD63202BFA5D007CB7F5 /* MapLoader.hpp */,
+			);
+			path = "Map Loader";
+			sourceTree = "<group>";
+		};
+		FA368E802025113F00A013C4 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				FA60FCE120275A25007CB7F5 /* Player.cpp */,
+				FA60FCE220275A25007CB7F5 /* Player.hpp */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		FA368E812025115400A013C4 /* Game Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A1A23203122EE00BD4771 /* Dice */,
+				FA4A1A22203122D200BD4771 /* Tokens */,
+				FA60FCE520275D79007CB7F5 /* Special Powers */,
+				FA60FCE420275D57007CB7F5 /* Races */,
+			);
+			path = "Game Pieces";
+			sourceTree = "<group>";
+		};
+		FA3E124B2069A08F0092742C /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E124C2069A0AA0092742C /* Observer.cpp */,
+				FA3E124D2069A0AA0092742C /* Observer.hpp */,
+				FA3E124F2069A0B40092742C /* Subject.cpp */,
+				FA3E12502069A0B40092742C /* Subject.hpp */,
+				FA77ADF7206AAAE800E154C7 /* PhaseObserver.cpp */,
+				FA77ADF8206AAAE800E154C7 /* PhaseObserver.hpp */,
+				FAC3A050206ECA2400F8D456 /* GameStatisticsObserver.cpp */,
+				FAC3A051206ECA2400F8D456 /* GameStatisticsObserver.hpp */,
+				FA73DDFE2072C15400B027D8 /* TurnMarkerObserver.cpp */,
+				FA73DDFF2072C15400B027D8 /* TurnMarkerObserver.hpp */,
+				FA73DE112072E8D300B027D8 /* PlayerHandsObserver.cpp */,
+				FA73DE122072E8D300B027D8 /* PlayerHandsObserver.hpp */,
+				FA73DE152072EB6F00B027D8 /* VictoryCoinObserver.cpp */,
+				FA73DE1B2072EF2300B027D8 /* VictoryCoinObserver.hpp */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
+		FA4A1A22203122D200BD4771 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A1A1F2031075E00BD4771 /* Tokens.cpp */,
+				FA4A1A202031075E00BD4771 /* Tokens.hpp */,
+				FA4A1A272032538800BD4771 /* SummarySheets.cpp */,
+				FA4A1A282032538800BD4771 /* SummarySheets.hpp */,
+				FA4A1A2A203254A600BD4771 /* VictoryCoin.cpp */,
+				FA4A1A2B203254A600BD4771 /* VictoryCoin.hpp */,
+				FA4A1A2D2032557500BD4771 /* TurnMarker.cpp */,
+				FA4A1A2E2032557500BD4771 /* TurnMarker.hpp */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		FA4A1A23203122EE00BD4771 /* Dice */ = {
+			isa = PBXGroup;
+			children = (
+				FA60FD4E20276205007CB7F5 /* ReinforcementDie.cpp */,
+				FA60FD4F20276205007CB7F5 /* ReinforcementDie.hpp */,
+			);
+			path = Dice;
+			sourceTree = "<group>";
+		};
+		FA5C05B12073E32E00C95FFF /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C05B22073E34000C95FFF /* Strategy.cpp */,
+				FA5C05B32073E34000C95FFF /* Strategy.hpp */,
+			);
+			path = Strategies;
+			sourceTree = "<group>";
+		};
+		FA60FCE420275D57007CB7F5 /* Races */ = {
+			isa = PBXGroup;
+			children = (
+				FA60FD70202C109A007CB7F5 /* Race.cpp */,
+				FA60FD5A20293687007CB7F5 /* Race.hpp */,
+			);
+			path = Races;
+			sourceTree = "<group>";
+		};
+		FA60FCE520275D79007CB7F5 /* Special Powers */ = {
+			isa = PBXGroup;
+			children = (
+				FA60FD72202C10B6007CB7F5 /* SpecialPower.cpp */,
+				FA60FD592029367A007CB7F5 /* SpecialPower.hpp */,
+			);
+			path = "Special Powers";
+			sourceTree = "<group>";
+		};
+		FA60FD61202B8D0F007CB7F5 /* Regions */ = {
+			isa = PBXGroup;
+			children = (
+				FA60FD74202C1149007CB7F5 /* Region.cpp */,
+				FA60FD75202C1149007CB7F5 /* Region.hpp */,
+			);
+			path = Regions;
+			sourceTree = "<group>";
+		};
+		FA73DE042072D4B400B027D8 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				FA73DE052072D50D00B027D8 /* GameStatisticsObserverDecorator.cpp */,
+				FA73DE062072D50D00B027D8 /* GameStatisticsObserverDecorator.hpp */,
+				FA73DE0E2072E8C000B027D8 /* PlayerHandObserverDecorator.cpp */,
+				FA73DE0F2072E8C000B027D8 /* PlayerHandObserverDecorator.hpp */,
+				FA73DE182072EB7E00B027D8 /* VictoryCoinObserverDecorator.cpp */,
+				FA73DE192072EB7E00B027D8 /* VictoryCoinObserverDecorator.hpp */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		FA7D8C392024F15900A198F4 = {
+			isa = PBXGroup;
+			children = (
+				FA7D8C442024F15900A198F4 /* GameAssets */,
+				FA7D8C432024F15900A198F4 /* Products */,
+				FA8AD0862046430300EBBB77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7D8C432024F15900A198F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D8C422024F15900A198F4 /* SmallWorld-BoardGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7D8C442024F15900A198F4 /* GameAssets */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A1A19202F769900BD4771 /* Main.cpp */,
+				FA3E124B2069A08F0092742C /* Observers */,
+				FA73DE042072D4B400B027D8 /* Decorators */,
+				FA5C05B12073E32E00C95FFF /* Strategies */,
+				FAF08D9D205347B10060F683 /* Helpers */,
+				FA368E782025103A00A013C4 /* Map */,
+				FA368E7E2025111D00A013C4 /* Map Loader */,
+				FA368E802025113F00A013C4 /* Player */,
+				FA60FD61202B8D0F007CB7F5 /* Regions */,
+				FA368E812025115400A013C4 /* Game Pieces */,
+			);
+			path = GameAssets;
+			sourceTree = "<group>";
+		};
+		FA8AD0862046430300EBBB77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AD0872046430400EBBB77 /* libSDL2-2.0.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF08D9D205347B10060F683 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF08D9E205347C80060F683 /* Conquering.cpp */,
+				FAF08D9F205347C80060F683 /* Conquering.hpp */,
+				FAF08DA1205367460060F683 /* GameSetup.cpp */,
+				FAF08DA2205367460060F683 /* GameSetup.hpp */,
+				FAF08DAE2055CD2B0060F683 /* VictoryCoinAssist.cpp */,
+				FAF08DAF2055CD2B0060F683 /* VictoryCoinAssist.hpp */,
+				FA77ADFA206B078300E154C7 /* GamePhase.cpp */,
+				FA77ADFB206B078300E154C7 /* GamePhase.hpp */,
+				FA73DE1C2073C04900B027D8 /* PlayerHands.cpp */,
+				FAC3A058207124F700F8D456 /* PlayerHands.hpp */,
+				FAD80941207C5AE7004B8F45 /* TroopRedeployment.cpp */,
+				FAD80942207C5AE7004B8F45 /* TroopRedeployment.hpp */,
+				FAD80947207D8828004B8F45 /* Abandoning.cpp */,
+				FAD80948207D8828004B8F45 /* Abandoning.hpp */,
+				FAD8094A207DA01C004B8F45 /* EnterDecline.cpp */,
+				FAD8094B207DA01C004B8F45 /* EnterDecline.hpp */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7D8C412024F15900A198F4 /* SmallWorld-BoardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D8C492024F15900A198F4 /* Build configuration list for PBXNativeTarget "SmallWorld-BoardGame" */;
+			buildPhases = (
+				FA7D8C3E2024F15900A198F4 /* Sources */,
+				FA7D8C3F2024F15900A198F4 /* Frameworks */,
+				FA7D8C402024F15900A198F4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmallWorld-BoardGame";
+			productName = Assignment1;
+			productReference = FA7D8C422024F15900A198F4 /* SmallWorld-BoardGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7D8C3A2024F15900A198F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FA7D8C412024F15900A198F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA7D8C3D2024F15900A198F4 /* Build configuration list for PBXProject "SmallWorld-BoardGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA7D8C392024F15900A198F4;
+			productRefGroup = FA7D8C432024F15900A198F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7D8C412024F15900A198F4 /* SmallWorld-BoardGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7D8C3E2024F15900A198F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E12512069A0B40092742C /* Subject.cpp in Sources */,
+				FA77ADFC206B078300E154C7 /* GamePhase.cpp in Sources */,
+				FA4A1A2F2032557500BD4771 /* TurnMarker.cpp in Sources */,
+				FA60FD6F202C07DC007CB7F5 /* EdgeProperties.cpp in Sources */,
+				FAF08DB02055CD2B0060F683 /* VictoryCoinAssist.cpp in Sources */,
+				FA73DE132072E8D300B027D8 /* PlayerHandsObserver.cpp in Sources */,
+				FA60FD64202BFA5D007CB7F5 /* MapLoader.cpp in Sources */,
+				FAD8094C207DA01C004B8F45 /* EnterDecline.cpp in Sources */,
+				FA4A1A212031075E00BD4771 /* Tokens.cpp in Sources */,
+				FA60FD5020276205007CB7F5 /* ReinforcementDie.cpp in Sources */,
+				FAF08DA0205347C80060F683 /* Conquering.cpp in Sources */,
+				FA77ADF9206AAAE800E154C7 /* PhaseObserver.cpp in Sources */,
+				FA4A1A292032538800BD4771 /* SummarySheets.cpp in Sources */,
+				FA60FD73202C10B6007CB7F5 /* SpecialPower.cpp in Sources */,
+				FA73DE172072EB6F00B027D8 /* VictoryCoinObserver.cpp in Sources */,
+				FA73DE072072D50D00B027D8 /* GameStatisticsObserverDecorator.cpp in Sources */,
+				FA4A1A1A202F769900BD4771 /* Main.cpp in Sources */,
+				FA5C05B42073E34000C95FFF /* Strategy.cpp in Sources */,
+				FA73DE102072E8C000B027D8 /* PlayerHandObserverDecorator.cpp in Sources */,
+				FAD80949207D8828004B8F45 /* Abandoning.cpp in Sources */,
+				FAD80943207C5AE7004B8F45 /* TroopRedeployment.cpp in Sources */,
+				FAF08DA3205367460060F683 /* GameSetup.cpp in Sources */,
+				FA60FD71202C109A007CB7F5 /* Race.cpp in Sources */,
+				FA60FD6C202BFD61007CB7F5 /* NodeProperties.cpp in Sources */,
+				FA73DE1A2072EB7E00B027D8 /* VictoryCoinObserverDecorator.cpp in Sources */,
+				FA73DE002072C15400B027D8 /* TurnMarkerObserver.cpp in Sources */,
+				FAC3A052206ECA2400F8D456 /* GameStatisticsObserver.cpp in Sources */,
+				FA73DE1D2073C04900B027D8 /* PlayerHands.cpp in Sources */,
+				FA368E7B2025109100A013C4 /* Map.cpp in Sources */,
+				FA60FCE320275A25007CB7F5 /* Player.cpp in Sources */,
+				FA4A1A2C203254A600BD4771 /* VictoryCoin.cpp in Sources */,
+				FA3E124E2069A0AA0092742C /* Observer.cpp in Sources */,
+				FA60FD76202C1149007CB7F5 /* Region.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA7D8C472024F15900A198F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA7D8C482024F15900A198F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA7D8C4A2024F15900A198F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.7/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA7D8C4B2024F15900A198F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.7/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7D8C3D2024F15900A198F4 /* Build configuration list for PBXProject "SmallWorld-BoardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D8C472024F15900A198F4 /* Debug */,
+				FA7D8C482024F15900A198F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D8C492024F15900A198F4 /* Build configuration list for PBXNativeTarget "SmallWorld-BoardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D8C4A2024F15900A198F4 /* Debug */,
+				FA7D8C4B2024F15900A198F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7D8C3A2024F15900A198F4 /* Project object */;
+}
